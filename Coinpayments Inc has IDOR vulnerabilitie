@@ -31,3 +31,9 @@ summury:
       the price parameter should not be filled with the user
       
 read more about the idor vulnerabilitie: https://portswigger.net/web-security/access-control/idor
+
+
+https://media.discordapp.net/attachments/980461133699878982/1043611362917630022/image.png?width=1127&height=585
+
+and like you see here the price really changed not just the value of it
+https://media.discordapp.net/attachments/1112500746538209330/1117083079446634556/image.png?width=926&height=585
