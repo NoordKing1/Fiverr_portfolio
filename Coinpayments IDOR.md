@@ -4,9 +4,9 @@ allowing an attacker to modify the price directly.
 vulnerable url: https://www.coinpayments.net/index.php?cmd=_pay_simple&reset=1&merchant=452f63dd60678a63ce74eef80f69d284&item_name=Synapse%20X&item_desc=One%20redeemable%20serial%20key%20for%20Synapse%20X&item_number=1&currency=USD&amountf=0.1&want_shipping=0&success_url=https://x.synapse.to/success.html&cancel_url=https://x.synapse.to/success.html
 risk: critical
 
-summury:
+<h2>summary</h2>:
 
-	<input type="hidden" name="amountf" value="1.00">
+	"<input type="hidden" name="amountf" value="1.00">"
   
   when you buy a product that have a payment method with coinpayments the merchant tool button api will send a post request with the following details:
           {
